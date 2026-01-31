@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style  */
+
+.myopen-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.logo h2{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.orange{
+    color: #FD6E0A ;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* main style  */
+
+header{
+    background-color: #FFF8F3;
+    
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    
+}
+
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: #474747;
+    font-weight: 350;
+    font-size: 20px;
+}
