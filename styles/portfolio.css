@@ -36,7 +36,8 @@ header{
     padding-top: 50px;
     background: url("../images/developer.png") , url("../images/header_bg.png") , #FFF8;
     background-repeat: no-repeat;
-    background-position: top left , bottom right;
+    background-position: 38px 38px , bottom right;
+
 }
 
 nav{
@@ -99,4 +100,230 @@ nav .menu{
 .team{
     display: flex;
     gap: 30px;
+}
+
+#about{
+    padding-top: 130px;
+}
+
+.about-container{
+    margin: 0 auto;
+    background-color: #FFF8F3;
+    text-align: center;
+    width: 71%;
+    max-width: 1140px;
+    padding: 131px 157px;
+}
+
+.about-container .heading-section{
+    max-width: 827px;  /* for some reason you couldnt think of using this */
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.about-container .heading-section h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+
+}
+
+.about-container .heading-section p{
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.about-container .info{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.info-card p{
+    color: #757575;
+    font-size: 20px;
+    
+}
+
+.info-card h4{
+    font-size: 20px;
+}
+
+/* skill start */
+
+#service{
+    padding-top: 130px;
+}
+
+.service-container{
+    margin: 0 auto;
+    width: 71%;
+    max-width: 1140px;
+}
+
+.serv-heading{
+    text-align: center;
+    max-width: 827px;
+    margin: 0 auto;
+
+}
+
+.serv-heading h2{
+   font-size: 35px;
+   margin-bottom: 30px; 
+}
+
+.serv-heading p{
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 50px;
+    
+}
+ 
+.icon-info{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    max-width: 1140px;
+}
+
+.icon-card{
+    padding: 30px 33px 30px 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0px rgb(236, 236, 236);
+    border-radius: 10px;
+}
+
+.icon-card img{
+    margin-bottom: 30px;
+    max-width: 44px; /* ami eta deinai */
+}
+
+.icon-card h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.icon-card p{
+    color: #474747;
+    line-height: 30px;
+    max-width: 204px;
+}
+
+/* skill end resume start */
+
+#resume{
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.resume-container{
+    margin: 0 auto;
+    width: 71%;
+    max-width: 1140px;
+}
+
+.res-heading{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.res-heading h2{
+    font-size: 35px;
+    margin-bottom: 113px;
+
+}
+
+.card-container{
+    display: flex;
+    max-width: 1093px;
+    margin: 0 auto;
+    gap: 71px;
+}
+
+.card-container h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #474747;
+
+}
+
+.card-container h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.card-container .into-title{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+    color: #474747;
+}
+
+.card-container .info-des{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    max-width: 511px;
+}
+
+.card-container hr{
+    margin: 30px 0;
+    color: #d2d2d2;
+}
+
+.txtcenter{
+    text-align: center;
+
+}
+/* resume section end footer start  */
+
+footer{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    background-color: #FFF8F3;
+}
+
+.footer-container{
+    margin: 0 auto;
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    gap: 117px;
+
+}
+
+.footer-container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.connect p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+    max-width: 562px;
+}
+
+.footer-container .img a{
+      margin-right: 24px;           /* gap: 24px; hobena rather margin right hobe haha
+                                     and also .img er por a dite hobe */
+}
+
+.messege input[type="text"] , textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;   /* this is quite unique */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #757575;
+
 }
